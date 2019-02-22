@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "app.css",
+	"sources": [
+		"../scss/app.scss",
+		"../scss/_mains.scss",
+		"../scss/_header.scss",
+		"../scss/_premiere.scss"
+	],
+	"sourcesContent": [
+		"@import \"mains\";\r\n@import \"header\";\r\n@import \"premiere\";\r\n",
+		"//main:app.scss\r\n",
+		"//main:app.scss\r\n",
+		"//main:app.scss\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
