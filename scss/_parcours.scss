@@ -6,5 +6,14 @@
   margin-left: auto;
 }
 .titre_parcours{
-
+@include titre_chapitre ;
+background-color: blue;
+}
+.tableau_parcours{
+  height: 332px;
+  width: 57%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+  margin-top: 12px;
 }
