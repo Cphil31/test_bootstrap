@@ -3,15 +3,16 @@ header{
   background-color: red;
   height: 60px;
   display: flex;
+  z-index: 9999;
 }
 .nom_header{
   width: 30%;
-  height: 100px;
-  background-color: blue;
+  height: 60px;
+  // background-color: blue;
 }
 .menu{
   width: 70%;
   height: 100px;
-  background-color: pink;
+  // background-color: pink;
   margin-left: auto;
 }

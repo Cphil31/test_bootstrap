@@ -1,0 +1,7 @@
+//main:app.scss
+.competences{
+  @include page ;
+}
+.titre_competences{
+  @include titre_chapitre;
+}
