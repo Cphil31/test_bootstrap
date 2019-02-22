@@ -1,1 +1,17 @@
 //main:app.scss
+header{
+  background-color: red;
+  height: 100px;
+  display: flex;
+}
+.nom_header{
+  width: 30%;
+  height: 100px;
+  background-color: blue;
+}
+.menu{
+  width: 70%;
+  height: 100px;
+  background-color: pink;
+  margin-left: auto;
+}
