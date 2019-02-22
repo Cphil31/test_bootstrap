@@ -4,6 +4,8 @@ header{
   height: 60px;
   display: flex;
   z-index: 9999;
+  position: fixed;
+  width: 100%;
 }
 .nom_header{
   width: 30%;
