@@ -1,6 +1,7 @@
 //main:app.scss
-.seconde{
+#seconde{
 @include page;
+margin-top: -16px;
 }
 .titre_a_propos_de_moi{
   @include titre_chapitre;
