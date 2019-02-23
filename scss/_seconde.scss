@@ -8,37 +8,19 @@ margin-top: -16px;
 }
 
 article{
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
 .article_1{
-  width: 20%;
-  height: 112px;
-  background-color: yellow;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 76px;
-  margin-bottom: 56px;
+  @include article ;
 }
 .article_2{
-  width: 20%;
-  height: 112px;
-  background-color: red;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 76px;
-  margin-bottom: 56px;
+  @include article ;
 }
 .portrait{
-  width: 20%;
-  height: 112px;
-  background-color: green;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 76px;
-  margin-bottom: 56px;
+  @include article ;
 }
 .nom_flex{
   margin-top: 154px;
