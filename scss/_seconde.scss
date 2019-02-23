@@ -1,9 +1,9 @@
 //main:app.scss
 .seconde{
-@include page ;
+@include page;
 }
 .titre_a_propos_de_moi{
-  @include titre_chapitre ;
+  @include titre_chapitre;
 }
 
 article{

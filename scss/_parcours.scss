@@ -1,9 +1,7 @@
 //main:app.scss
 .parcours{
-  width: 100%;
-  height: 800px;
-  background-color: red;
-  margin-left: auto;
+@include page;
+background-color: red;
 }
 .titre_parcours{
 @include titre_chapitre ;
@@ -11,7 +9,7 @@ background-color: blue;
 }
 .tableau_parcours{
   height: 332px;
-  width: 57%;
+  width: 77%;
   margin-left: auto;
   margin-right: auto;
   background-color: green;
