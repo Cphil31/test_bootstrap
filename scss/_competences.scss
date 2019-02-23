@@ -5,3 +5,6 @@
 .titre_competences{
   @include titre_chapitre;
 }
+.contenu_competences{
+    @include contenu;
+}

@@ -8,3 +8,6 @@ margin-top: -67px;
 .titres_services{
   @include titre_chapitre;
 }
+.contenu_services{
+  @include contenu ;
+}

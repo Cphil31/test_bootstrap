@@ -6,3 +6,6 @@
 .titre_contact{
   @include titre_chapitre ;
 }
+.contenu_contact{
+  @include contenu;
+}
