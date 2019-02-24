@@ -1,11 +1,9 @@
 //main:app.scss
 #parcours{
 @include page;
-background-color: red;
 }
 .titre_parcours{
 @include titre_chapitre ;
-background-color: blue;
 }
 .tableau_parcours{
 @include contenu ;

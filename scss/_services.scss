@@ -1,8 +1,6 @@
 //main:app.scss
 #services{
-@include page;
-background-color: black;
-color: white;
+@include page
 margin-top: -67px;
 }
 .titres_services{

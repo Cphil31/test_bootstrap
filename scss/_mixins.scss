@@ -3,8 +3,8 @@
   margin-top: 5%;
   width: 70%;
   height: 77px;
+  background: $background_titre_contenu;
   text-align: center;
-  background-color: red;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 56px;
@@ -13,12 +13,12 @@
   width: 100%;
   height: 800px;
   margin-top: -67px;
-  background-color: blue;
+  background-color: white;
   padding-top: 2%;
 }
 
 @mixin contenu {
-  background-color: green;
+  background-color: $background_titre_contenu;
   width: 70%;
   height: 455px;
   margin-left: auto;
@@ -28,7 +28,7 @@
 @mixin article {
     width: 31%;
     height: 327px;
-    background-color: yellow;
+    background-color: $background_titre_contenu;
     margin-left: auto;
     margin-right: auto;
     margin-top: 76px;
