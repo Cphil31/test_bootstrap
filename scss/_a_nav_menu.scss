@@ -1,0 +1,19 @@
+//main:app.scss
+a.a_nav_menu:link {
+  color: white;
+}
+
+/* visited link */
+a.a_nav_menu:visited {
+  color: white;
+}
+
+/* mouse over link */
+a.a_nav_menu.a_nav:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a.a_nav_menu:active {
+  color: white;
+}

@@ -1,28 +1,15 @@
 //main:app.scss
 @media screen and (max-width: 320px)
 {
-    header{
+    .header{
+      height:10px;
       flex-direction: column;
-      height: 128px;
-    }
-    .nom_header{
-
-    }
-
-    .menu{
-      margin-left: 24px;
-      width: 100%;
-      font-size: 7px;
     }
     #nom_nav{
-      display: flex;
+      font-size: 10px;
+    }
+    a.a-nav{
+      font-size: 10px;
     }
 
-  #premiere{
-      display: none;
-    }
-
-  .titre_a_propos_de_moi{
-    margin-top: 100px;
-  }
 }
