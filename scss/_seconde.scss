@@ -5,6 +5,8 @@ margin-top: -16px;
 }
 .titre_a_propos_de_moi{
   @include titre_chapitre;
+  font-size: 32px;
+  color: white;
 }
 
 article{
@@ -13,13 +15,17 @@ article{
   margin-right: auto;
   display: flex;
 }
+.titre_article{
+  margin-top:10px;
+  margin-bottom:10px;
+}
 .article_1{
   @include article ;
 }
 .article_2{
   @include article ;
 }
-.portrait{
+.article_3{
   @include article ;
 }
 .nom_flex{

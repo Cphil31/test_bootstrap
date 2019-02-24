@@ -16,6 +16,15 @@
   background-color: white;
   padding-top: 2%;
 }
+@mixin nom{
+  height: 101px;
+  width: 28%;
+  color: white;
+  text-align: center;
+  font-size: 52px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @mixin contenu {
   background-color: $background_titre_contenu;
@@ -31,6 +40,7 @@
     background-color: $background_titre_contenu;
     margin-left: auto;
     margin-right: auto;
+    color: white;
     margin-top: 76px;
     margin-bottom: 56px;
 }
