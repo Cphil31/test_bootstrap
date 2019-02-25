@@ -1,9 +1,5 @@
 @import "variables";
 @import "mixins";
-@import "media_320px";
-@import "media_375px";
-@import "media_425px";
-@import "media_768px";
 @import "competences";
 @import "a_nav";
 @import "a_nav_menu";
@@ -15,4 +11,8 @@
 @import "parcours";
 @import "container";
 @import "footer";
+@import "media_320px";
+@import "media_375px";
+@import "media_425px";
+@import "media_768px";
 @import "mains";
