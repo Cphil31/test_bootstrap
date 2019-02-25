@@ -5,6 +5,7 @@ margin-top: -67px;
 }
 .titres_services{
   @include titre_chapitre;
+  font-size: 34px;
 }
 .contenu_services{
   @include contenu ;

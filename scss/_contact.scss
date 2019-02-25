@@ -4,6 +4,7 @@
 }
 .titre_contact{
   @include titre_chapitre ;
+  font-size: 36px;
 }
 .contenu_contact{
   @include contenu;

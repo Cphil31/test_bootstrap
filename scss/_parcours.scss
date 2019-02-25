@@ -3,7 +3,8 @@
 @include page;
 }
 .titre_parcours{
-@include titre_chapitre ;
+@include titre_chapitre
+    font-size: 34px;
 }
 .tableau_parcours{
 @include contenu ;

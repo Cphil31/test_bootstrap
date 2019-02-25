@@ -4,6 +4,7 @@
 }
 .titre_competences{
   @include titre_chapitre;
+  font-size: 33px;
 }
 .contenu_competences{
     @include contenu;
