@@ -9,3 +9,13 @@
 .tableau_parcours{
 @include contenu ;
 }
+#table{
+  width: 211px;
+  font-size: 33px;
+  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr.tr_titre{
+  margin-bottom: 10px;
+}
