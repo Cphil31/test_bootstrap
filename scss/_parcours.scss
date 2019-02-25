@@ -7,7 +7,8 @@
     font-size: 34px;
 }
 .tableau_parcours{
-@include contenu ;
+    @include contenu ;
+    padding-top: 32px;
 }
 #table{
   width: 211px;
