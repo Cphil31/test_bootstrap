@@ -6,7 +6,7 @@ margin-top: -16px;
 .titre_a_propos_de_moi{
   @include titre_chapitre;
   font-size: 32px;
-  color: white;
+  color: $color_texte_premiere;
 }
 
 article{
